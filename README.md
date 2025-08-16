@@ -59,8 +59,4 @@ The scripts support input files in **GROMACS `.xvg` format** and produce high-qu
 1. Upload `.xvg` files (RMSD, RMSF, Rg, SASA) into the Colab notebook.  
 2. Run the corresponding script.  
 3. Figures and statistics will be generated automatically.  
-4. Download the figures using:
-
-```python
-from google.colab import files
-files.download("rmsd_NMDA.png")
+4. Download the figures.
